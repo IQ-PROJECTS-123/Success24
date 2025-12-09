@@ -6,6 +6,8 @@
             font-weight: bold;
             margin-bottom: 20px;
             color: #003366;
+            color: #003366;
+
         }
         .section-content {
             font-size: 18px;
