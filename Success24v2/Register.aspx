@@ -90,7 +90,7 @@
             <div class="form-floating">
                 <asp:TextBox ID="txtwhtsap" runat="server" class="form-control" TextMode="Phone"></asp:TextBox>
                 <label>Whatsapp Number</label>
-                <label>Whatsapp Number-2</label>
+                
 
             </div>
         </div>
