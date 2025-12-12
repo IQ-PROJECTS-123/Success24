@@ -67,7 +67,9 @@
     <Content Include="Events.aspx" />
     <Content Include="GDV.aspx" />
     <Content Include="GIT.aspx" />
+    <Content Include="img\cyber.jpg" />
     <Content Include="img\DS.jpg" />
+    <Content Include="img\loginbg.jpg" />
     <Content Include="img\Pooja1.jpg" />
     <Content Include="img\Pooja1.png" />
     <Content Include="img\pooja2.jpeg" />

@@ -100,7 +100,7 @@
                    </div>
                </div>
    <!-- SSAM Program Dropdown -->
-<div class="nav-item dropdown">
+<%--<div class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle">SSAM PROGRAM</a>
     <div class="dropdown-menu m-0">
         <a href="SSAMV.aspx" class="dropdown-item">Success Sharing Agreement Model Vision</a>
@@ -113,9 +113,9 @@
         <a href="#" class="dropdown-item">Success Sharing Agreement Model Training Curriculum</a>
         <a href="#" class="dropdown-item">Success Sharing Agreement Model FAQ</a>
     </div>
-</div>
+</div>--%>
                         <!-- Courses Menu Bar-->
-                       <div class="nav-item dropdown">
+                      <%-- <div class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle">Courses</a>
     <div class="dropdown-menu m-0" style="max-height:400px; overflow-y:auto;"> 
         <a href="#" class="dropdown-item">ASP.NET MVC Training</a>
@@ -150,7 +150,7 @@
         <a href="#" class="dropdown-item">Data Science Developments</a>
         <a href="#" class="dropdown-item">SOFTWARE TESTING</a>
         <a href="#" class="dropdown-item">Automation Testing</a>
-    </div>
+    </div>--%>
 </div>
  <a href="Events.aspx" class="nav-item nav-link">Events</a>                        
                        <div class="nav-item dropdown">
@@ -160,13 +160,12 @@
                                <a href="training.html" class="dropdown-item">Dance Training</a>
                                <a href="team.html" class="dropdown-item">Our Team</a>
                                <a href="Testimonials.aspx" class="dropdown-item">Testimonial</a>
-                               <a href="gallery.html" class="dropdown-item">Dance Gallery</a>
+                               <a href="gallery.html" class="dropdown-item">Gallery</a>
                                
                            </div>
                        </div>
                        <a href="Contact.aspx" class="nav-item nav-link">Contact Us</a>
                        <a href="#" class="nav-item nav-link">Placements</a>
-
                    </div>
                    <a href="Register.aspx" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Register Now</a>
                </div>

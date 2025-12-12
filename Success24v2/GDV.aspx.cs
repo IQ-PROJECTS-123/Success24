@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Data;
 using System.Data.SqlClient;
 using System.Web.UI.WebControls;
-using System.Xml.Linq;
 
 namespace Success24v2
 {
@@ -16,19 +14,24 @@ namespace Success24v2
 
         void BindGrid()
         {
-            Utility._BindGridView(gdv, "SELECT * FROM RegistrationTable");
+            Utility._BindGridView(gdv, "SELECT * FROM RegistrationTable ORDER BY ID DESC");
         }
 
         protected void btnedit_Click(object sender, EventArgs e)
         {
-            Button btn = (Button)sender;      // jis button ko click kiya
-            string id = btn.CommandArgument;  // us row ki ID
+            Button btn = (Button)sender;
+            string id = btn.CommandArgument;
             Response.Redirect("Register.aspx?id=" + id);
         }
 
         protected void btndelete_Click(object sender, EventArgs e)
         {
-            Utility.ExecuteQuery("DELETE FROM RegistrationTable WHERE ID=" + ((Button)sender).CommandArgument);
+            Button btn = (Button)sender;
+            string id = btn.CommandArgument;
+
+            Utility.ExecuteQuery("DELETE FROM RegistrationTable WHERE ID=" + id);
+
+            BindGrid(); // refresh after delete
         }
     }
 }

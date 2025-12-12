@@ -143,69 +143,94 @@
                 </div>
             </div>
 
-            <div class="row g-4 justify-content-center">
+          <div class="row g-4 justify-content-center">
 
-                <!-- Card 1 -->
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="event-item rounded h-100">
-                        <div class="position-relative">
-                            <img src="img/ds.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            <div class="bg-primary text-white fw-bold rounded position-absolute p-2" style="top: 0; right: 0;">JUN 28</div>
-                        </div>
-                        <div class="border border-top-0 rounded-bottom p-4">
-                            <a href="#" class="h4 mb-3 d-block">Data Science Engineering</a>
-                            <p>The Data Science Engineering course teaches advanced data analysis, machine learning, and AI algorithms. It includes Python, R, SQL, Hadoop, Spark...</p>
-                            <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#">Register Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="event-item rounded h-100">
-                        <div class="position-relative">
-                            <img src="img/devops.jpeg" class="img-fluid rounded-top w-100" alt="Image">
-                            <div class="bg-primary text-white rounded position-absolute p-2" style="top: 0; right: 0;">JUN 30</div>
-                        </div>
-                        <div class="border rounded-bottom p-4">
-                            <a href="#" class="h4 mb-3 d-block">DevOps Engineering</a>
-                            <p>The DevOps Engineering course teaches CI/CD pipelines, automation tools, Docker, Kubernetes, cloud services and deployment systems.</p>
-                            <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#">Register Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="event-item rounded h-100">
-                        <div class="position-relative">
-                            <img src="img/sp.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            <div class="bg-primary text-white rounded position-absolute p-2" style="top: 0; right: 0;">MAY 15</div>
-                        </div>
-                        <div class="border rounded-bottom p-4">
-                            <a href="#" class="h4 mb-3 d-block">SharePoint Engineering</a>
-                            <p>The SharePoint Engineering course teaches SPFx, Power Platform, workflows, C#, JS, and enterprise intranet development.</p>
-                            <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#">Register Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div class="event-item rounded h-100">
-                        <div class="position-relative">
-                            <img src="img/sdet.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                            <div class="bg-primary text-white rounded position-absolute p-2" style="top: 0; right: 0;">APR 2</div>
-                        </div>
-                        <div class="border rounded-bottom p-4">
-                            <a href="#" class="h4 mb-3 d-block">SDET Engineering</a>
-                            <p>The SDET course teaches automated testing frameworks, Selenium, CI/CD pipelines and performance testing.</p>
-                            <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="#">Register Now</a>
-                        </div>
-                    </div>
-                </div>
-
+    <!-- Card 1 -->
+    <div class="col-md-6 col-lg-4">
+        <div class="event-item rounded h-100">
+            <div class="position-relative">
+                <img src="img/ds.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                <div class="bg-primary text-white fw-bold rounded position-absolute p-2" style="top: 0; right: 0;">JUN 28</div>
             </div>
+            <div class="border border-top-0 rounded-bottom p-4">
+                <a href="#" class="h4 mb-3 d-block">Data Science Engineering</a>
+                <p>The Data Science Engineering program provides in-depth training in data analysis, machine learning, artificial intelligence, and big-data technologies. Students learn Python, R, SQL, Hadoop, Spark, and advanced statistical techniques to solve real-world business problems and build intelligent data-driven solutions.</p>
+                <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="Register.aspx">Register Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-6 col-lg-4">
+        <div class="event-item rounded h-100">
+            <div class="position-relative">
+                <img src="img/devops.jpeg" class="img-fluid rounded-top w-100" alt="Image">
+                <div class="bg-primary text-white rounded position-absolute p-2" style="top: 0; right: 0;">JUN 30</div>
+            </div>
+            <div class="border rounded-bottom p-4">
+                <a href="#" class="h4 mb-3 d-block">DevOps Engineering</a>
+                <p>The DevOps Engineering program delivers comprehensive knowledge of CI/CD processes, automation practices, containerization, and orchestration using Docker and Kubernetes. Students learn cloud platforms, configuration management, monitoring, and deployment strategies to optimize workflows and ensure reliable, scalable, and efficient software delivery.</p>
+                <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="Register.aspx">Register Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-6 col-lg-4">
+        <div class="event-item rounded h-100">
+            <div class="position-relative">
+                <img src="img/sp.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                <div class="bg-primary text-white rounded position-absolute p-2" style="top: 0; right: 0;">MAY 15</div>
+            </div>
+            <div class="border rounded-bottom p-4">
+                <a href="#" class="h4 mb-3 d-block">SharePoint Engineering</a>
+                <p>The SharePoint Engineering program provides extensive training in SPFx development, Power Platform automation, enterprise workflows, and modern intranet solutions. Students learn C#, JavaScript, integration techniques, and governance practices to build scalable, secure, and collaborative digital workplace environments for organizations.</p>
+                <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="Register.aspx">Register Now</a>
+            </div>
+        </div>
+    </div>
+
+</div> <!-- END ROW 1 -->
+
+            <br />
+<!-- ========================= -->
+<!-- ⭐ ROW 2 — ONLY 2 CARDS ⭐ -->
+<!-- ========================= -->
+
+<div class="row g-4 justify-content-center">
+
+    <!-- Card 4 -->
+    <div class="col-md-6 col-lg-4">
+        <div class="event-item rounded h-100">
+            <div class="position-relative">
+                <img src="img/sdet.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                <div class="bg-primary text-white rounded position-absolute p-2" style="top: 0; right: 0;">APR 2</div>
+            </div>
+            <div class="border rounded-bottom p-4">
+                <a href="#" class="h4 mb-3 d-block">Software Development Engineer in Test</a>
+                <p>The Software Development Engineer in Test program offers comprehensive training in automated testing strategies, scripting, and modern QA methodologies. Students learn Selenium, API validation, CI/CD integration, performance analysis, and test architecture to ensure scalable, reliable, and high-quality software delivery.</p>
+                <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="Register.aspx">Register Now</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-md-6 col-lg-4">
+        <div class="event-item rounded h-100">
+            <div class="position-relative">
+                <img src="img/cyber.jpg" class="img-fluid rounded-top w-100" alt="Cyber Security Image">
+                <div class="bg-primary text-white rounded position-absolute p-2" style="top: 0; right: 0;">MAY 15</div>
+            </div>
+            <div class="border rounded-bottom p-4">
+                <a href="#" class="h4 mb-3 d-block">Cyber Security</a>
+                <p>The Cyber Security program provides deep expertise in ethical hacking, network defense, risk assessment, security monitoring, and incident response. Students learn threat analysis, vulnerability management, encryption concepts, and practical defense strategies to protect digital infrastructures and ensure robust organizational security against evolving cyber threats.</p>
+                <a class="btn btn-primary rounded-pill text-white py-2 px-4" href="Register.aspx">Register Now</a>
+            </div>
+        </div>
+    </div>
+
+</div> <!-- END ROW 2 -->
+
         </div>
     </div>
     <!-- Events End -->

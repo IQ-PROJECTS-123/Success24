@@ -1,12 +1,19 @@
 ﻿  <%@ Page Title="" Language="C#" MasterPageFile="~/24.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="Success24v2.Register" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server"></asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <body style="
+    background-image: url('img/loginbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;">
+
+</asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<fieldset style="margin-top:70px; background-color:yellow; border:2px solid #0d6efd; padding:20px; border-radius:10px;">
-    <legend style="font-size:22px; font-weight:bold; color:#0d6efd;"><center><h1>Registration Form</h1></center></legend>
 
+<center><h1 style="margin-top:70px;">Registration Form</h1></center>
+    
 <div class="container mt-3">
 
     <!-- Row 1 -->
@@ -90,8 +97,6 @@
             <div class="form-floating">
                 <asp:TextBox ID="txtwhtsap" runat="server" class="form-control" TextMode="Phone"></asp:TextBox>
                 <label>Whatsapp Number</label>  
-                <label>Whatsapp Number</label>
-
             </div>
         </div>
     </div>
@@ -192,9 +197,6 @@
         <asp:Button ID="btnsubmit" runat="server" Text="Submit" CssClass="btn btn-primary w-100 py-3" OnClick="btnSubmit_Click" />
     </div>
 </div>
-
-</fieldset>
-
-<hr />
+<br />
 
 </asp:Content>
